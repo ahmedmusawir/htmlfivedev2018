@@ -1,0 +1,192 @@
+/**
+ *
+ * CG HOME NEW CONTENT 		
+ *
+ */
+
+#cb-home-top-info-block {
+	min-height: 300px;
+	// border: 1rem solid red;
+	background-color: $imb-secondary;
+	-moz-box-shadow:    inset 0px 60px 180px #000000;
+   	-webkit-box-shadow: inset 0px 60px 180px #000000;
+   	box-shadow:         inset 0px 60px 180px #000000;
+
+   	.content {
+   		padding-top: 3rem;
+   		padding-bottom: 3rem;
+   		padding-left: 2rem;
+   		padding-right: 2rem;
+
+   		@media (min-width: 700px) {
+   			padding-top: 8rem;
+   			padding-bottom: 8rem;
+   		}
+
+   		.title {
+   			color: white;
+			text-shadow: 3px 3px 6px black;
+
+   		}
+   		p {
+   			@media (min-width: 700px) {
+   				font-size: 2.3rem;
+   				line-height: 2.5rem;
+   			}
+   		}
+   	}	
+}
+
+#cb-home-testimonial-block {
+	min-height: 300px;
+	background: url('/wp-content/uploads/2018/03/lightpaperfibers.jpg');
+	padding-bottom: 5rem;
+
+   	.content {
+   		padding-top: 3rem;
+   		padding-bottom: 3rem;
+   		padding-left: 2rem;
+   		padding-right: 2rem;
+
+   		@media (min-width: 700px) {
+   			padding-top: 8rem;
+   			padding-bottom: 8rem;
+   		}
+
+   		.title {
+   			// color: white;
+			text-shadow: 3px 3px 6px $imb-primary;
+			padding-bottom: 5rem;
+   		}
+
+   		.praise-box	{
+   			.text-only {
+   				color: white;
+   				// background-color: lighten($imb-primary, 30%);
+   				background-color: lighten($imb-secondary, 0%);
+				padding: 3rem;
+				box-shadow: 5px 5px 10px $imb-primary;
+				border-top-left-radius: 30px;
+				border-bottom-right-radius: 30px;
+   			}
+			.arrow-down {
+			  margin: 0 auto;	
+			  width: 0; 
+			  height: 0; 
+			  border-left: 20px solid transparent;
+			  border-right: 20px solid transparent;
+			  
+			  border-top: 20px solid $imb-secondary;
+			}  
+
+			&:hover {
+				.text-only {
+					background-color: $imb-third;
+				}
+				.arrow-down {
+			  		border-top: 20px solid $imb-third !important;
+				}
+			} 
+
+			.client-info {
+				img {
+					border: 1rem solid lighten($imb-primary, 25%);
+					border-radius: 50%;
+				}
+				h4 {
+					padding-bottom: 0 !important;
+					color: lighten($imb-third, 25%);
+				}
+				h5 {
+					padding-top: 0 !important;
+					color: lighten($imb-third, 25%);
+				}
+			}			
+   		}
+   	}	   		
+}
+
+#cb-home-bottom-info-block {
+	min-height: 300px;
+	background-color: $imb-third;
+
+   	.content {
+   		padding-top: 4rem;
+   		padding-bottom: 4rem;
+   		padding-left: 2rem;
+   		padding-right: 2rem;
+
+   		.title {
+   			color: white;
+   		}   		
+
+   		p {
+   			@media (min-width: 700px) {
+   				font-size: 2.3rem;
+   				line-height: 2.5rem;
+   			}
+   		}
+   	}		
+}
+
+#cb-home-social-proof-block {
+	min-height: 300px;
+	// border: 1rem solid green;
+	background: url('/wp-content/uploads/2018/03/dot-patterns-75x75.png');
+	background-color: lighten($imb-primary, 40%);
+
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	
+	@media (min-width: 700px) {
+		padding-top: 8rem;
+		padding-bottom: 10rem;
+	}
+
+   	.content {
+   		padding-top: 4rem;
+   		padding-bottom: 4rem;
+   		padding-left: 2rem;
+   		padding-right: 2rem;
+
+   		.title {
+   			// color: white;
+			text-shadow: 3px 3px 6px $imb-primary;
+			padding-bottom: 5rem;
+   		}		
+		.flex-item {
+			// padding: 2rem;
+			margin: auto;
+		  	display: inline-block;
+		  	vertical-align: middle;
+		}	   		
+   	}		
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
