@@ -193,16 +193,15 @@ get_header('home'); ?>
 
 	<main class="container">
 		
-        <figure id="drasi-home-video" class="col-sm-12 col-md-12 col-12">
+        <!-- <figure id="drasi-home-video" class="col-sm-12 col-md-12 col-12">
 
                 <div class="embed-responsive embed-responsive-16by9">
 
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<?php the_field('video_fooer_youtube_code'); ?>?wmode=opaque&autoplay=0&loop=1&controls=0&showinfo=0&rel=0"></iframe>
-                    <!-- <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oH_LfXnklRw?wmode=opaque&autoplay=0&loop=1&controls=0&showinfo=0&rel=0"></iframe> -->
 
                 </div>
 
-        </figure>
+        </figure> -->
 
         <div id="drasi-home-video-text" class="row">
 

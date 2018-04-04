@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*
-Theme Name: The Theme for CYBERIZE GROUP
+Theme Name: The Theme for HTMLFIVEDEV.COM 2018
 Theme URI: https://www.cyberizegroup.com
 Description: This is the one built from scratch for JENNIFER BROWN
 Tags: one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-image-header, featured-images, post-formats, responsive-layout, theme-options, translation-ready
@@ -6290,7 +6290,7 @@ img {
  */
 #drasi-home-video-block {
   min-height: 0px;
-  margin-top: 200px;
+  margin-top: 20px;
   position: relative;
   background: url("/wp-content/uploads/2017/10/sample-paralax-bg.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -6299,7 +6299,7 @@ img {
   background-size: cover; }
   @media (max-width: 736px) {
     #drasi-home-video-block {
-      margin-top: 120px; } }
+      margin-top: 0px; } }
   #drasi-home-video-block #drasi-home-video {
     margin-top: -150px;
     z-index: 0;

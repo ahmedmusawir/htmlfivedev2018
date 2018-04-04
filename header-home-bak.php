@@ -204,40 +204,32 @@
     <script src="<?php echo get_template_directory_uri(); ?>/js/hero/imagesloaded.pkgd.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/hero/main.js"></script>
     <script>
-
-        (function() {
-            var headline = document.querySelector('.trigger-headline'),
-                trigger = document.querySelector('.btn--trigger'),
-                segmenter = new Segmenter(document.querySelector('.segmenter'), {
-                    pieces: 7,
-                    animation: {
-                        duration: 2500,
-                        easing: 'easeOutQuad',
-                        delay: 350,
-                        translateZ: {min: 10, max: 65}
-                    },
-                    parallax: true,
-                    parallaxMovement: {min: 25, max: 250},
-                    positions: [
-                        {top: 10, left: 20, width: 20, height: 30},
-                        {top: 8, left: 35, width: 30, height: 20},
-                        {top: 25, left: 18, width: 14, height: 25},
-                        {top: 23, left: 50, width: 20, height: 10},
-                        {top: 30, left: 65, width: 10, height: 30},
-                        {top: 48, left: 20, width: 10, height: 13},
-                        {top: 50, left: 67, width: 10, height: 20}
-                    ],
-                    onReady: function() {
-                        trigger.classList.remove('btn--hidden');
-                        // trigger.addEventListener('click', function() {
-                            segmenter.animate();
-                            headline.classList.remove('trigger-headline--hidden');
-                            this.classList.add('btn--hidden');
-                        // });
-                    }
-                });
-        })();        
-
+    (function() {
+        var headline = document.querySelector('.trigger-headline'),
+            trigger = document.querySelector('.btn--trigger'),
+            segmenter = new Segmenter(document.querySelector('.segmenter'), {
+                pieces: 4,
+                animation: {
+                    duration: 1500,
+                    easing: 'easeInOutExpo',
+                    delay: 10,
+                    translateZ: 100
+                },
+                parallax: true,
+                positions: [
+                    {top: 0, left: 0, width: 45, height: 45},
+                    {top: 55, left: 0, width: 45, height: 45},
+                    {top: 0, left: 55, width: 45, height: 45},
+                    {top: 55, left: 55, width: 45, height: 45}
+                ],
+                onReady: function() {
+                    trigger.classList.remove('btn--hidden');
+                        segmenter.animate();
+                        headline.classList.remove('trigger-headline--hidden');
+                        // this.classList.add('btn--hidden');
+                }
+            });
+    })();
     </script>
 </section>
 
