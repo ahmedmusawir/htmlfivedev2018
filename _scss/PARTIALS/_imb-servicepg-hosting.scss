@@ -1,0 +1,46 @@
+/**
+ *
+ * Service Page Hosting
+ *
+ */
+
+#imb-servicepg-hosting {
+
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	background-color: darken( $imb-primary, 20% );
+
+	.headline {
+		color: white;
+	}
+
+	.icon-hosting {
+		i {
+			// padding-top: 2rem;
+			padding-bottom: 3rem;
+			color: $imb-secondary;
+		}		
+	}
+
+	.content-box {
+
+		.text-only {
+			min-height: 100px;
+			color: $imb-third;
+			font-weight: 300;
+
+			.list-group-item {
+				background-color: $imb-secondary;
+				border-color: lighten($imb-primary, 10%);
+				color: white;
+
+				@include transition(all 1s ease-in-out);
+
+				&:hover {
+					@include transform(scale(1.2) rotate(-1.5deg));
+					background-color: darken($imb-primary, 40%);
+				}
+			}
+		}	
+	}
+}

@@ -9,7 +9,6 @@ $imb-teal: #5FC5BF;
 $imb-light-gray: #f9fbfc;
 $imb-red: #bb324a;
 
-
 @import "bourbon/bourbon";
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css);
@@ -279,7 +278,7 @@ img {
 
 
 /*=======================================
-=            ABOUT page style            =
+=            SERVICE page style            =
 =======================================*/
 
 /**
@@ -287,14 +286,14 @@ img {
  * ABOUT PAGE HERO UNIT 
  *
  */
-@import "PARTIALS/imb-aboutpg-top-hero-unit";
+// @import "PARTIALS/imb-aboutpg-top-hero-unit";
 
 /**
  *
- * ABOUT PAGE TOP ROADMAP
+ * SERVICE PAGE TOP ROADMAP
  *
  */
-@import "PARTIALS/imb-aboutpg-roadmap";
+@import "PARTIALS/imb-servicepg-roadmap";
 
 /**
  *
@@ -305,10 +304,10 @@ img {
 
 /**
  *
- * ABOUT PAGE TESTIMONIAL
+ * SERVICE PAGE HOSTING
  *
  */
-@import "PARTIALS/imb-aboutpg-testimonial";
+@import "PARTIALS/imb-servicepg-hosting";
 
 
 /**

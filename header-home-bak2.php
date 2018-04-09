@@ -209,31 +209,23 @@
             var headline = document.querySelector('.trigger-headline'),
                 trigger = document.querySelector('.btn--trigger'),
                 segmenter = new Segmenter(document.querySelector('.segmenter'), {
-                    pieces: 10,
-                    shadowsAnimation: {
-                        opacity: 1,
-                        translateX: 20,
-                        translateY: 20
-                    },
+                    pieces: 7,
                     animation: {
-                        duration: 1500,
+                        duration: 2500,
                         easing: 'easeOutQuad',
-                        delay: 50,
+                        delay: 350,
                         translateZ: {min: 10, max: 65}
                     },
                     parallax: true,
-                    parallaxMovement: {min: 15, max: 30},
+                    parallaxMovement: {min: 25, max: 250},
                     positions: [
-                        {top: 0, left: 0, width: 30, height: 30},
-                        {top: 10, left: 10, width: 30, height: 30},
-                        {top: 20, left: 20, width: 30, height: 30},
-                        {top: 30, left: 30, width: 30, height: 30},
-                        {top: 40, left: 40, width: 30, height: 30},
-                        {top: 50, left: 50, width: 30, height: 30},
-                        {top: 60, left: 60, width: 30, height: 30},
-                        {top: 70, left: 70, width: 30, height: 30},
-                        {top: 80, left: 80, width: 30, height: 30},
-                        {top: 90, left: 90, width: 30, height: 30}
+                        {top: 10, left: 20, width: 20, height: 30},
+                        {top: 8, left: 35, width: 30, height: 20},
+                        {top: 25, left: 18, width: 14, height: 25},
+                        {top: 23, left: 50, width: 20, height: 10},
+                        {top: 30, left: 65, width: 10, height: 30},
+                        {top: 48, left: 20, width: 10, height: 13},
+                        {top: 50, left: 67, width: 10, height: 20}
                     ],
                     onReady: function() {
                         trigger.classList.remove('btn--hidden');
@@ -244,7 +236,7 @@
                         // });
                     }
                 });
-        })(); 
+        })();        
 
     </script>
 </section>

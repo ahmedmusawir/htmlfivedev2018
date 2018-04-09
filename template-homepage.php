@@ -27,14 +27,14 @@ get_header('home'); ?>
                 Do What You Do Best ...
             </h1>
             <p>
-                Growing your agency is hard work. As you begin to add on services, you then realize how many other skills will be needed just to add on what appears to be a simple service. Adding custom website design to your product suite is no different. 
+                Growing your business is hard work. Do you really need the headaches and frustration that comes with managing your website? Your website is a tool to make your business money. You would try and fix your work computer if it's broken then why wouldn't you want to try and fix your website.
             </p>
             <p>
-                Ask yourself, is it really that much better to have full control over the design process?
+                Let our team do all the things you hate to do on your website but need to be done. Check out our Fully Manage WordPress Service and find out why we call it The Ultimate.
             </p>
 
             <p>
-                <a href="/partner-program/">Learn More</a>
+                <a href="/contact/">Learn More</a>
             </p>
 
         </article>
@@ -147,8 +147,10 @@ get_header('home'); ?>
                 Web Design Shouldn't Be Hard ...
             </h1>
             <p>
-                We believe that the web design process should be fun, enjoyable, and not so darn hard. From our pain and frustration working with other companies, we designed a Partner Program from the ground up with you, the agency, in mind.
+               We believe that the web design process should be fun, enjoyable, and not so darn hard. Born from our pain and frustration of working with other companies, we designed a service from the ground up with you, the business owner, in mind.
             </p>
+
+            <a class="text-center" href="/request-quote/"><h3>Get A Free Quote</h3></a>
 
         </article>
 

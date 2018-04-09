@@ -6387,7 +6387,7 @@ img {
 
 /*=====  End of Home page style END  ======*/
 /*=======================================
-=            ABOUT page style            =
+=            SERVICE page style            =
 =======================================*/
 /**
  *
@@ -6396,118 +6396,55 @@ img {
  */
 /**
  *
- * ABOUT PAGE TOP HERO UNIT
- * This involves the header area. Call-out section.
- */
-#masthead #header-box {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
-  display: -webkit-box;
-  display: -moz-box;
-  display: box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -moz-box-orient: horizontal;
-  box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -moz-box-direction: normal;
-  box-direction: normal;
-  -webkit-flex-direction: row;
-  -moz-flex-direction: row;
-  flex-direction: row;
-  -ms-flex-direction: row;
-  -webkit-box-pack: distribute;
-  -moz-box-pack: distribute;
-  box-pack: distribute;
-  -webkit-justify-content: space-around;
-  -moz-justify-content: space-around;
-  -ms-justify-content: space-around;
-  -o-justify-content: space-around;
-  justify-content: space-around;
-  -ms-flex-pack: distribute; }
-  @media (max-width: 1200px) {
-    #masthead #header-box {
-      padding-top: 5rem;
-      padding-bottom: 5rem; } }
-  @media (max-width: 559px) {
-    #masthead #header-box {
-      padding-top: 5rem;
-      padding-bottom: 0rem; } }
-  #masthead #header-box .content-box {
-    border-radius: 50px;
-    margin: auto; }
-    #masthead #header-box .content-box h1, #masthead #header-box .content-box h4 {
-      color: #EEEEEE;
-      text-shadow: 6px 6px 16px black; }
-    #masthead #header-box .content-box h1 {
-      padding-top: 2rem;
-      padding-left: 4rem;
-      padding-right: 4rem;
-      font-size: 5rem;
-      font-weight: 300; }
-    #masthead #header-box .content-box h4 {
-      padding-bottom: 2rem;
-      font-size: 2.6rem;
-      font-weight: 300; }
-    #masthead #header-box .content-box .btn-holder {
-      margin-top: 5rem; }
-      #masthead #header-box .content-box .btn-holder .btn {
-        padding: 2rem 5rem;
-        margin-right: 1rem; }
-    @media (max-width: 559px) {
-      #masthead #header-box .content-box h1 {
-        font-size: 3rem;
-        font-weight: 700;
-        padding-left: 1rem;
-        padding-right: 1rem; }
-      #masthead #header-box .content-box h4 {
-        padding-left: 1rem;
-        padding-right: 1rem; }
-      #masthead #header-box .content-box .btn-holder {
-        margin-top: 2.5rem; }
-        #masthead #header-box .content-box .btn-holder .btn {
-          padding: 2rem 5rem;
-          margin-bottom: 1rem; } }
-
-/**
- *
- * ABOUT PAGE TOP ROADMAP
+ * SERVICE PAGE TOP ROADMAP
  *
  */
 /**
  *
- * About Page Roadmap
+ * Service Page Roadmap
  *
  */
-#imb-aboutpg-roadmap {
+#imb-servicepg-roadmap {
   padding-top: 5rem;
   padding-bottom: 5rem;
   background: url(/wp-content/uploads/2017/07/skulls-very-light.jpg) fixed; }
-  #imb-aboutpg-roadmap .content-box {
+  #imb-servicepg-roadmap .content-box {
     text-align: center; }
-    #imb-aboutpg-roadmap .content-box .image-box {
+    #imb-servicepg-roadmap .content-box .btn {
+      border-radius: 30px; }
+    #imb-servicepg-roadmap .content-box .image-box {
       margin-top: 5rem;
       margin-bottom: 3rem; }
-      #imb-aboutpg-roadmap .content-box .image-box .icon-box {
+      #imb-servicepg-roadmap .content-box .image-box .icon-box {
         padding-bottom: 5rem;
         width: 150px;
         height: 150px;
         border: 5px dotted gray;
         border-radius: 50%; }
-        #imb-aboutpg-roadmap .content-box .image-box .icon-box i {
+        #imb-servicepg-roadmap .content-box .image-box .icon-box i {
           padding-top: 3.5rem;
-          color: gray; }
-      #imb-aboutpg-roadmap .content-box .image-box .roadmap-image-text .subheadline {
+          color: #ef4409; }
+      #imb-servicepg-roadmap .content-box .image-box .roadmap-image-text .subheadline {
         margin-bottom: 3rem;
         font-size: 3.5rem;
         font-weight: 300; }
-      #imb-aboutpg-roadmap .content-box .image-box .roadmap-image-text .text-only {
+      #imb-servicepg-roadmap .content-box .image-box .roadmap-image-text .text-only {
         min-height: 100px;
         color: #434141;
         font-weight: 300; }
+        #imb-servicepg-roadmap .content-box .image-box .roadmap-image-text .text-only .list-group-item {
+          background-color: #ef4409;
+          color: white;
+          -webkit-transition: all 1s ease-in-out;
+          -moz-transition: all 1s ease-in-out;
+          transition: all 1s ease-in-out; }
+          #imb-servicepg-roadmap .content-box .image-box .roadmap-image-text .text-only .list-group-item:hover {
+            -webkit-transform: scale(1.2) rotate(-1.5deg);
+            -moz-transform: scale(1.2) rotate(-1.5deg);
+            -ms-transform: scale(1.2) rotate(-1.5deg);
+            -o-transform: scale(1.2) rotate(-1.5deg);
+            transform: scale(1.2) rotate(-1.5deg);
+            background-color: #1a1a1a; }
 
 /**
  *
@@ -6528,50 +6465,41 @@ img {
 
 /**
  *
- * ABOUT PAGE TESTIMONIAL
+ * SERVICE PAGE HOSTING
  *
  */
-#imb-aboutpg-testimonial {
+/**
+ *
+ * Service Page Hosting
+ *
+ */
+#imb-servicepg-hosting {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: gray;
   background-color: #4d4d4d; }
-  #imb-aboutpg-testimonial .content-box h1 {
+  #imb-servicepg-hosting .headline {
     color: white; }
-  #imb-aboutpg-testimonial .content-box #testimonial-slider #carousel-example-captions .carousel-indicators {
-    margin-top: 15rem;
-    top: 60%; }
-    @media (max-width: 550px) {
-      #imb-aboutpg-testimonial .content-box #testimonial-slider #carousel-example-captions .carousel-indicators {
-        display: none; } }
-    #imb-aboutpg-testimonial .content-box #testimonial-slider #carousel-example-captions .carousel-indicators .caption-image {
-      height: 50px;
-      width: 50px; }
-    #imb-aboutpg-testimonial .content-box #testimonial-slider #carousel-example-captions .carousel-indicators .caption-image.active {
-      background-color: gray; }
-  #imb-aboutpg-testimonial .content-box #testimonial-slider #carousel-example-captions .carousel-inner {
-    min-height: 430px; }
-  #imb-aboutpg-testimonial .content-box #testimonial-slider #carousel-example-captions .carousel-control.left {
-    background-image: none !important; }
-  #imb-aboutpg-testimonial .content-box #testimonial-slider #carousel-example-captions .carousel-control.right {
-    background-image: none !important; }
-  #imb-aboutpg-testimonial .content-box #testimonial-slider #carousel-example-captions .item img {
-    width: 10%; }
-  #imb-aboutpg-testimonial .content-box #testimonial-slider #carousel-example-captions .item i {
-    font-size: 4rem;
-    color: gray; }
-  #imb-aboutpg-testimonial .content-box #testimonial-slider #carousel-example-captions .item h4 {
-    font-size: 1.7rem;
-    font-weight: 300;
-    color: white; }
-  #imb-aboutpg-testimonial .content-box #testimonial-slider #carousel-example-captions .item h3 {
-    color: white; }
-  #imb-aboutpg-testimonial .content-box #testimonial-slider #carousel-example-captions .item .moose-caption {
-    text-align: center; }
-    #imb-aboutpg-testimonial .content-box #testimonial-slider #carousel-example-captions .item .moose-caption p {
-      font-weight: 300;
-      font-size: 2rem;
-      color: #9a9a9a; }
+  #imb-servicepg-hosting .icon-hosting i {
+    padding-bottom: 3rem;
+    color: #ef4409; }
+  #imb-servicepg-hosting .content-box .text-only {
+    min-height: 100px;
+    color: #434141;
+    font-weight: 300; }
+    #imb-servicepg-hosting .content-box .text-only .list-group-item {
+      background-color: #ef4409;
+      border-color: #9a9a9a;
+      color: white;
+      -webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out; }
+      #imb-servicepg-hosting .content-box .text-only .list-group-item:hover {
+        -webkit-transform: scale(1.2) rotate(-1.5deg);
+        -moz-transform: scale(1.2) rotate(-1.5deg);
+        -ms-transform: scale(1.2) rotate(-1.5deg);
+        -o-transform: scale(1.2) rotate(-1.5deg);
+        transform: scale(1.2) rotate(-1.5deg);
+        background-color: #1a1a1a; }
 
 /**
  *
