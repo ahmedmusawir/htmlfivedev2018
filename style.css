@@ -6448,24 +6448,39 @@ img {
 
 /**
  *
- * ABOUT PAGE SOCIAL PROOF
+ * SERVICE PAGE SPEED PACKAGE
  *
  */
-#imb-aboutpg-social-proof {
+/**
+ *
+ * SERVICE PAGE SPEED PKG
+ *
+ */
+#imb-servicepg-speed {
   background-color: #EEEEEE;
-  background-image: url("/wp-content/uploads/2017/07/dot-patterns-50px.png"); }
-  #imb-aboutpg-social-proof .content-box {
-    padding-top: 4rem;
-    padding-bottom: 2rem; }
-    #imb-aboutpg-social-proof .content-box .flex-item {
-      padding: 2rem;
-      margin: auto;
-      display: inline-block;
-      vertical-align: middle; }
+  background-image: url("/wp-content/uploads/2018/03/dot-patterns-75x75.png"); }
+  #imb-servicepg-speed .content-box .text-only {
+    min-height: 100px;
+    color: #434141;
+    font-weight: 300; }
+    #imb-servicepg-speed .content-box .text-only .list-group-item {
+      background-color: #ef4409;
+      border-color: #9a9a9a;
+      color: white;
+      -webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out; }
+      #imb-servicepg-speed .content-box .text-only .list-group-item:hover {
+        -webkit-transform: scale(1.2) rotate(-1.5deg);
+        -moz-transform: scale(1.2) rotate(-1.5deg);
+        -ms-transform: scale(1.2) rotate(-1.5deg);
+        -o-transform: scale(1.2) rotate(-1.5deg);
+        transform: scale(1.2) rotate(-1.5deg);
+        background-color: #1a1a1a; }
 
 /**
  *
- * SERVICE PAGE HOSTING
+ * SERVICE PAGE HOSTING PACKAGE
  *
  */
 /**

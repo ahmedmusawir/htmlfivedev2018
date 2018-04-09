@@ -213,11 +213,112 @@ get_header(); ?>
 
 </section> <!-- End imb-home-testimonial -->
 
-<section id="imb-aboutpg-social-proof" class="container-fluid">
+<section id="imb-servicepg-speed" class="container-fluid">
 	
-	<div class="content-box container text-center">
+	<div class="content-box text-center">
 		
 		<h1 class="headline text-center">Page Speed Package</h1>
+
+		<figure class="icon-hosting text-center">
+				
+			<i class="fa fa-cloud-upload fa-5x"></i>
+			<i class="fa fa-bolt fa-5x"></i>
+			<i class="fa fa-cloud-download fa-5x"></i>
+
+		</figure>
+		
+		<div class="content-box row">
+
+			
+			<figure class="col-sm-6 col-md-6 col-lg-6">
+
+				<h4 class="text-only">
+					<ul class="list-group text-center">
+						<li class="list-group-item">Image Optimization</li>
+						<li class="list-group-item">JavaScript Minification</li>
+						<li class="list-group-item">JavaScript Unification</li>
+						<li class="list-group-item">CSS Minification</li>
+						<li class="list-group-item">CSS Unification</li>
+					</ul>
+				</h4>				
+				
+			</figure>
+			<figure class="col-sm-6 col-md-6 col-lg-6">
+
+				<h4 class="text-only">
+					<ul class="list-group text-center">
+						<li class="list-group-item">HTML Minification</li>
+						<li class="list-group-item">Custom Browser Caching Implimentation</li>
+						<li class="list-group-item">Server Side Caching Implimentation</li>
+						<li class="list-group-item">CDN Implimentation</li>
+						<li class="list-group-item">$250 (One Time Payment)</li>
+					</ul>
+				</h4>				
+				
+			</figure>
+
+		</div>	
+
+		<h2 class="headline text-center">We have achieved following results through this package</h2>
+		
+
+		<div class="content-box row">
+
+			
+			<figure class="col-sm-12 col-md-6 col-lg-6">
+
+				<h4 class="text-only">
+					
+					<img class="img-responsive" src="/wp-content/uploads/2018/04/gtmatrix-before.jpg">
+
+				</h4>	
+
+				<h2 class="headline text-center">Before (Gtmatrix.com)</h2>
+
+				
+			</figure>
+			<figure class="col-sm-12 col-md-6 col-lg-6">
+
+				<h4 class="text-only">
+
+					<img class="img-responsive" src="/wp-content/uploads/2018/04/gtmatrix-after.jpg">
+
+				</h4>
+
+				<h2 class="headline text-center">After (Gtmatrix.com)</h2>
+
+				
+			</figure>
+
+		</div>	
+		<div class="content-box row">
+
+			
+			<figure class="col-sm-12 col-md-6 col-lg-6">
+
+				<h4 class="text-only">
+
+					<img class="img-responsive" src="/wp-content/uploads/2018/04/pingdom-before.jpg">
+					
+				</h4>		
+
+				<h2 class="headline text-center">Before (Pingdom.com)</h2>
+
+				
+			</figure>
+			<figure class="col-sm-12 col-md-6 col-lg-6">
+
+				<h4 class="text-only">
+					
+					<img class="img-responsive" src="/wp-content/uploads/2018/04/pingdom-after.jpg">
+					
+				</h4>
+
+				<h2 class="headline text-center">After (Pingdom.com)</h2>
+
+			</figure>
+
+		</div>	
 
 	</div>
 
