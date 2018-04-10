@@ -2,7 +2,7 @@
 /**
  * The template for displaying Contact Page.
  *
- * Template Name: Portfolio Page
+ * OLD Portfolio Page
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *

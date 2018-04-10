@@ -315,7 +315,7 @@ img {
  * ABOUT PAGE OPT IN CTA
  *
  */
-@import "PARTIALS/imb-aboutpg-optin-CTA";
+@import "PARTIALS/imb-servicepg-security";
 
 
 
@@ -444,6 +444,47 @@ img {
  */
 @import "PARTIALS/_cg-taxonomy-portfolio-item";
 @import "PARTIALS/_cg-portfolio-main-page";
+@import "PARTIALS/_html-portfolio-roadmap";
+
+/**
+ *
+ * REQUEST A QUOTE PAGE
+ *
+ */
+
+ .page-id-4802 {
+ 	// border: 1rem solid red;
+ 	#gform_6 {
+ 		input {
+ 			border: 1px solid $imb-secondary;
+			border-radius: 50px;
+			outline: none;
+ 		}
+ 		select {
+ 			border: 1px solid $imb-secondary;
+			outline: none;
+ 		}
+ 		#gform_submit_button_6 {
+ 			padding: .5rem 3rem;
+ 			background-color: $imb-secondary;
+ 			color: white;
+
+ 			&:hover {
+ 				background-color: black;
+ 			}
+ 		}
+ 		#wp-input_6_7-editor-container {
+ 			border: 1px solid $imb-secondary;
+ 		}
+ 	}
+
+ 	.right-box {
+ 		img {
+ 			border-radius: 50%;
+ 		}
+ 	}
+ }
+
 
 
 

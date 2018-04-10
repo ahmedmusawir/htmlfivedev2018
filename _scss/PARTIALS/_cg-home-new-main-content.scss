@@ -34,7 +34,77 @@
    				line-height: 2.5rem;
    			}
    		}
-   	}	
+   	}
+
+	#top-info-block-roadmap {
+		padding-top: 5rem;
+		padding-bottom: 5rem;
+
+		.content-box {
+			text-align: center;
+
+			.btn {
+				border-radius: 30px;
+				background-color: black;
+				padding: 1rem 5rem;
+				font-weight: 900;
+				
+				&:hover {
+					background-color: white;
+					color: $imb-secondary;
+					font-weight: 900;
+				}
+			}
+
+			.image-box {
+
+				.icon-box {
+					padding-bottom: 5rem;
+					width: 150px;
+					height: 150px;
+					border: 5px dotted $imb-primary;
+					border-radius: 50%;
+
+					i {
+						padding-top: 3.5rem;
+						color: white;
+						@include transition(all 1s ease-in-out);
+
+						&:hover {
+							@include transform(scale(1.4) rotate(-1.5deg));
+							color: darken($imb-primary, 40%);
+						}
+					}
+				}
+				.roadmap-image-text {
+					.subheadline {
+						margin-bottom: 3rem;
+						font-size: 3.5rem;
+						font-weight: 300;
+						color: white;
+					}
+					.text-only {
+						min-height: 100px;
+						color: $imb-third;
+						font-weight: 300;
+
+						.list-group-item {
+							background-color: $imb-secondary;
+							color: white;
+
+							@include transition(all 1s ease-in-out);
+
+							&:hover {
+								@include transform(scale(1.2) rotate(-1.5deg));
+								background-color: darken($imb-primary, 40%);
+							}
+						}
+					}
+				}
+			}
+		}
+
+	}   		
 }
 
 #cb-home-testimonial-block {

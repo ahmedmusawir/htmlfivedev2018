@@ -6005,8 +6005,7 @@ img {
           width: 70%; } }
       @media (max-width: 450px) {
         .navbar .navbar-brand #logo {
-          width: 83%;
-          padding-top: 1.1rem; } }
+          width: 85%; } }
   .navbar .navbar-toggle {
     border: 3px solid #b3b3b3; }
     .navbar .navbar-toggle .icon-bar {
@@ -6175,6 +6174,61 @@ img {
       #cb-home-top-info-block .content p {
         font-size: 2.3rem;
         line-height: 2.5rem; } }
+  #cb-home-top-info-block #top-info-block-roadmap {
+    padding-top: 5rem;
+    padding-bottom: 5rem; }
+    #cb-home-top-info-block #top-info-block-roadmap .content-box {
+      text-align: center; }
+      #cb-home-top-info-block #top-info-block-roadmap .content-box .btn {
+        border-radius: 30px;
+        background-color: black;
+        padding: 1rem 5rem;
+        font-weight: 900; }
+        #cb-home-top-info-block #top-info-block-roadmap .content-box .btn:hover {
+          background-color: white;
+          color: #ef4409;
+          font-weight: 900; }
+      #cb-home-top-info-block #top-info-block-roadmap .content-box .image-box .icon-box {
+        padding-bottom: 5rem;
+        width: 150px;
+        height: 150px;
+        border: 5px dotted gray;
+        border-radius: 50%; }
+        #cb-home-top-info-block #top-info-block-roadmap .content-box .image-box .icon-box i {
+          padding-top: 3.5rem;
+          color: white;
+          -webkit-transition: all 1s ease-in-out;
+          -moz-transition: all 1s ease-in-out;
+          transition: all 1s ease-in-out; }
+          #cb-home-top-info-block #top-info-block-roadmap .content-box .image-box .icon-box i:hover {
+            -webkit-transform: scale(1.4) rotate(-1.5deg);
+            -moz-transform: scale(1.4) rotate(-1.5deg);
+            -ms-transform: scale(1.4) rotate(-1.5deg);
+            -o-transform: scale(1.4) rotate(-1.5deg);
+            transform: scale(1.4) rotate(-1.5deg);
+            color: #1a1a1a; }
+      #cb-home-top-info-block #top-info-block-roadmap .content-box .image-box .roadmap-image-text .subheadline {
+        margin-bottom: 3rem;
+        font-size: 3.5rem;
+        font-weight: 300;
+        color: white; }
+      #cb-home-top-info-block #top-info-block-roadmap .content-box .image-box .roadmap-image-text .text-only {
+        min-height: 100px;
+        color: #434141;
+        font-weight: 300; }
+        #cb-home-top-info-block #top-info-block-roadmap .content-box .image-box .roadmap-image-text .text-only .list-group-item {
+          background-color: #ef4409;
+          color: white;
+          -webkit-transition: all 1s ease-in-out;
+          -moz-transition: all 1s ease-in-out;
+          transition: all 1s ease-in-out; }
+          #cb-home-top-info-block #top-info-block-roadmap .content-box .image-box .roadmap-image-text .text-only .list-group-item:hover {
+            -webkit-transform: scale(1.2) rotate(-1.5deg);
+            -moz-transform: scale(1.2) rotate(-1.5deg);
+            -ms-transform: scale(1.2) rotate(-1.5deg);
+            -o-transform: scale(1.2) rotate(-1.5deg);
+            transform: scale(1.2) rotate(-1.5deg);
+            background-color: #1a1a1a; }
 
 #cb-home-testimonial-block {
   min-height: 300px;
@@ -6458,14 +6512,15 @@ img {
  */
 #imb-servicepg-speed {
   background-color: #EEEEEE;
-  background-image: url("/wp-content/uploads/2018/03/dot-patterns-75x75.png"); }
+  padding-top: 6rem;
+  padding-bottom: 4rem; }
   #imb-servicepg-speed .content-box .text-only {
     min-height: 100px;
     color: #434141;
     font-weight: 300; }
     #imb-servicepg-speed .content-box .text-only .list-group-item {
-      background-color: #ef4409;
-      border-color: #9a9a9a;
+      background-color: #5a5a5a;
+      border-color: gray;
       color: white;
       -webkit-transition: all 1s ease-in-out;
       -moz-transition: all 1s ease-in-out;
@@ -6476,7 +6531,7 @@ img {
         -ms-transform: scale(1.2) rotate(-1.5deg);
         -o-transform: scale(1.2) rotate(-1.5deg);
         transform: scale(1.2) rotate(-1.5deg);
-        background-color: #1a1a1a; }
+        background-color: #ef4409; }
 
 /**
  *
@@ -6489,7 +6544,7 @@ img {
  *
  */
 #imb-servicepg-hosting {
-  padding-top: 5rem;
+  padding-top: 6rem;
   padding-bottom: 5rem;
   background-color: #4d4d4d; }
   #imb-servicepg-hosting .headline {
@@ -6521,27 +6576,39 @@ img {
  * ABOUT PAGE OPT IN CTA
  *
  */
-#imb-aboutpg-optin-CTA {
-  background-color: #777373;
-  min-height: 300px; }
-  #imb-aboutpg-optin-CTA .content-box {
-    padding-top: 3rem; }
-    #imb-aboutpg-optin-CTA .content-box .text-content {
-      text-align: center; }
-      #imb-aboutpg-optin-CTA .content-box .text-content .headline {
-        color: white;
-        font-weight: 300; }
-        @media (min-width: 1600px) {
-          #imb-aboutpg-optin-CTA .content-box .text-content .headline {
-            font-size: 3.5rem; } }
-      #imb-aboutpg-optin-CTA .content-box .text-content #gform_submit_button_3 {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        width: 99%;
-        background: #ef4409;
-        color: white;
-        margin: auto;
-        margin-bottom: 3rem; }
+/**
+ *
+ * SERVICE PAGE SPEED PKG
+ *
+ */
+#imb-servicepg-security {
+  background-color: gray;
+  background-image: url("/wp-content/uploads/2018/03/dot-patterns-75x75.png");
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
+  #imb-servicepg-security .headline {
+    color: white;
+    padding-bottom: 2rem; }
+  #imb-servicepg-security .icon-security i {
+    color: white; }
+  #imb-servicepg-security .content-box .text-only {
+    min-height: 100px;
+    color: #434141;
+    font-weight: 300; }
+    #imb-servicepg-security .content-box .text-only .list-group-item {
+      background-color: #ef4409;
+      border-color: #343434;
+      color: white;
+      -webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out; }
+      #imb-servicepg-security .content-box .text-only .list-group-item:hover {
+        -webkit-transform: scale(1.2) rotate(-1.5deg);
+        -moz-transform: scale(1.2) rotate(-1.5deg);
+        -ms-transform: scale(1.2) rotate(-1.5deg);
+        -o-transform: scale(1.2) rotate(-1.5deg);
+        transform: scale(1.2) rotate(-1.5deg);
+        background-color: #343434; }
 
 /*=====  End of Start page style END  ======*/
 /*====================================
@@ -6902,6 +6969,72 @@ img {
         border-bottom-right-radius: 20px;
         border-top-left-radius: 20px;
         color: white; }
+
+/**
+ *
+ * Service Page Roadmap
+ *
+ */
+#html-portfolio-roadmap {
+  padding-top: 2rem;
+  padding-bottom: 5rem; }
+  #html-portfolio-roadmap .content-box {
+    text-align: center; }
+    #html-portfolio-roadmap .content-box .btn {
+      border-radius: 30px; }
+    #html-portfolio-roadmap .content-box .image-box .icon-box {
+      padding-bottom: 5rem;
+      width: 150px;
+      height: 150px;
+      border: 5px dotted gray;
+      border-radius: 50%; }
+      #html-portfolio-roadmap .content-box .image-box .icon-box i {
+        padding-top: 3.5rem;
+        color: #ef4409; }
+    #html-portfolio-roadmap .content-box .image-box .roadmap-image-text .subheadline {
+      margin-bottom: 3rem;
+      font-size: 3.5rem;
+      font-weight: 300; }
+    #html-portfolio-roadmap .content-box .image-box .roadmap-image-text .text-only {
+      min-height: 100px;
+      color: #434141;
+      font-weight: 300; }
+      #html-portfolio-roadmap .content-box .image-box .roadmap-image-text .text-only .list-group-item {
+        background-color: #ef4409;
+        color: white;
+        -webkit-transition: all 1s ease-in-out;
+        -moz-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out; }
+        #html-portfolio-roadmap .content-box .image-box .roadmap-image-text .text-only .list-group-item:hover {
+          -webkit-transform: scale(1.2) rotate(-1.5deg);
+          -moz-transform: scale(1.2) rotate(-1.5deg);
+          -ms-transform: scale(1.2) rotate(-1.5deg);
+          -o-transform: scale(1.2) rotate(-1.5deg);
+          transform: scale(1.2) rotate(-1.5deg);
+          background-color: #1a1a1a; }
+
+/**
+ *
+ * REQUEST A QUOTE PAGE
+ *
+ */
+.page-id-4802 #gform_6 input {
+  border: 1px solid #ef4409;
+  border-radius: 50px;
+  outline: none; }
+.page-id-4802 #gform_6 select {
+  border: 1px solid #ef4409;
+  outline: none; }
+.page-id-4802 #gform_6 #gform_submit_button_6 {
+  padding: .5rem 3rem;
+  background-color: #ef4409;
+  color: white; }
+  .page-id-4802 #gform_6 #gform_submit_button_6:hover {
+    background-color: black; }
+.page-id-4802 #gform_6 #wp-input_6_7-editor-container {
+  border: 1px solid #ef4409; }
+.page-id-4802 .right-box img {
+  border-radius: 50%; }
 
 .cat-links:before {
   font-family: "FontAwesome";

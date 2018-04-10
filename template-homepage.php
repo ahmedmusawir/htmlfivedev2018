@@ -30,12 +30,141 @@ get_header('home'); ?>
                 Growing your business is hard work. Do you really need the headaches and frustration that comes with managing your website? Your website is a tool to make your business money. You would try and fix your work computer if it's broken then why wouldn't you want to try and fix your website.
             </p>
             <p>
-                Let our team do all the things you hate to do on your website but need to be done. Check out our Fully Manage WordPress Service and find out why we call it The Ultimate.
+                Let our team do all the things you hate to do on your website but need to be done. Check out our full range of Services that are designed to cater to your business needs ...
             </p>
 
-            <p>
-                <a href="/contact/">Learn More</a>
-            </p>
+
+            <section id="top-info-block-roadmap" class="container-fluid">
+
+                <div class="content-box">
+                    
+                    <div class="image-group row">
+
+                        <figure class="image-box col-sm-12 col-md-3 col-lg-3">
+                            
+                            <div class="icon-box-holder text-center">
+
+                                <div class="icon-box center-block">
+
+                                    <a href="/services/">
+                                        <i class="fa fa-file-image-o fa-5x"></i>
+                                    </a>
+
+
+                                </div>   
+
+                            </div>
+                        
+                            <article class="roadmap-image-text">
+
+                                <h3 class="subheadline">
+
+                                    Web Design Packages
+
+                                </h3>
+                                
+                            </article>
+
+                        </figure>
+
+                        <figure class="image-box col-sm-12 col-md-3 col-lg-3">
+                            
+                            <div class="icon-box-holder text-center">
+
+                                <div class="icon-box center-block">
+
+                                    <a href="/services/#imb-servicepg-hosting">
+
+                                        <i class="fa fa-cloud fa-5x"></i>
+
+                                    </a>
+
+
+                                </div> 
+
+                            </div>
+                        
+                            <article class="roadmap-image-text">
+
+                                <h3 class="subheadline">
+
+                                    Peace of Mind Package
+
+                                </h3>
+                                
+                            </article>
+
+                        </figure>
+
+                        <figure class="image-box col-sm-12 col-md-3 col-lg-3">
+                            
+                            <div class="icon-box-holder text-center">
+
+                                <div class="icon-box center-block">
+
+                                    <a href="/services/#imb-servicepg-speed">
+
+                                        <i class="fa fa-bolt fa-5x"></i>
+
+                                    </a>
+
+
+                                </div>                  
+                            </div>
+                        
+                            <article class="roadmap-image-text">
+
+                                <h3 class="subheadline">
+
+                                    WP Page Speed Package
+
+                                </h3>
+                                
+                            </article>
+
+                        </figure>
+
+                        <figure class="image-box col-sm-12 col-md-3 col-lg-3">
+                            
+                            <div class="icon-box-holder text-center">
+
+                                <div class="icon-box center-block">
+
+                                    <a href="/services/#imb-servicepg-security">
+
+                                        <i class="fa fa-lock fa-5x"></i>
+
+                                    </a>
+
+                                </div>  
+
+                            </div>
+                        
+                            <article class="roadmap-image-text">
+
+                                <h3 class="subheadline">
+
+                                    WP Security Package
+
+                                </h3>
+                                
+                            </article>
+
+                        </figure>
+
+                       
+                        <div class="roadmap-button">
+
+                            <a href="/services/" class="btn btn-primary btn-lg">Find Out More</a>
+                            
+                        </div>
+                    
+                    </div>
+
+                </div>
+                
+            </section> <!-- End imb-startpg-top-roadmap --> 
+
 
         </article>
 

@@ -324,13 +324,52 @@ get_header(); ?>
 
 </section> <!-- End imb-home-social-proof -->
 
-<section id="imb-aboutpg-optin-CTA" class="container-fluid">
+<section id="imb-servicepg-security" class="container-fluid">
 	
-	<div class="content-box">
-		
-		
+	<main class="container">
 
-	</div>
+		<h1 class="headline text-center">WordPress Security Lockdown Package</h1>
+
+		<figure class="icon-security text-center">
+				
+			<i class="fa fa-cloud-upload fa-5x"></i>
+			<i class="fa fa-lock fa-5x"></i>
+			<i class="fa fa-cloud-download fa-5x"></i>
+
+		</figure>
+		
+		<div class="content-box">
+
+			<figure class="col-sm-6 col-md-6 col-lg-6">
+
+				<h4 class="text-only">
+					<ul class="list-group text-center">
+						<li class="list-group-item">WP Admin Access Lockdown</li>
+						<li class="list-group-item">Custom Login Page Deployment</li>
+						<li class="list-group-item">Server Level Lockdown</li>
+						<li class="list-group-item">File System Level Lockdown</li>
+						<li class="list-group-item">WP Updates (Core, Themes & Plugins)</li>
+					</ul>
+				</h4>				
+				
+			</figure>
+			<figure class="col-sm-6 col-md-6 col-lg-6">
+
+				<h4 class="text-only">
+					<ul class="list-group text-center">
+						<li class="list-group-item">WP Database Lockdown</li>
+						<li class="list-group-item">Firewall Installation & Configuration</li>
+						<li class="list-group-item">Malware Protection & Scanning</li>
+						<li class="list-group-item">Password Hardening & Management Training</li>
+						<li class="list-group-item">$300 (One Time Payment)</li>
+					</ul>
+				</h4>				
+				
+			</figure>
+
+		</div>
+
+	</main>	
 
 </section> <!-- End imb-startpg-optin-CTA -->
 
