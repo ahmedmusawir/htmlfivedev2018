@@ -310,7 +310,7 @@ get_header('contact'); ?>
 						</p>
 
 					
-						<p class="phone"><i class="fa fa-phone"></i>&nbsp;<?php the_field('phone_number'); ?></p>
+						<!-- <p class="phone"><i class="fa fa-phone"></i>&nbsp;<?php the_field('phone_number'); ?></p> -->
 
 						
 						<p class="email"><i class="fa fa-envelope"></i>&nbsp;<?php the_field('email_address'); ?></p>		

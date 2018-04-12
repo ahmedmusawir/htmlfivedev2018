@@ -173,8 +173,8 @@ add_action( 'widgets_init', 'moose_frame_widgets_init' );
  * Enqueue scripts and styles.
  */
 function moose_frame_scripts() {
-	// wp_enqueue_style( 'moose-frame-style', get_stylesheet_uri(), '', '10.0' ); //Production
-	wp_enqueue_style( 'moose-frame-style', get_stylesheet_uri(), '', microtime() ); //Development
+	wp_enqueue_style( 'moose-frame-style', get_stylesheet_uri(), '', '11.0' ); //Production
+	// wp_enqueue_style( 'moose-frame-style', get_stylesheet_uri(), '', microtime() ); //Development
 
 	wp_enqueue_style( 'moose-masonry-style', get_template_directory_uri() . '/_masonry-css/style.css', '', '1.0' );
 	wp_enqueue_style( 'moose-masonry-media-query-style', get_template_directory_uri() . '/_masonry-css/media_query.css', '', '1.0' );
@@ -239,15 +239,58 @@ require get_template_directory() . '/inc/wp_bootstrap_navwalker.php';
 // MOOSE FRAMEWORK FUNCTIONS ON MAIN THEME
 require get_template_directory() . '/moose-functions/helper-functions.php';
 require get_template_directory() . '/moose-functions/admin-functions.php';
+
 require get_template_directory() . '/moose-functions/test-functions.php';
 
+//WP ADMIN LOGIN REDIRECT
+require get_template_directory() . '/moose-functions/admin-login-redirect.php';
 
 
 
 
+// TOTAL LOCK DOWN
+// add_action('init','custom_login');
 
+// function custom_login(){
+ 
+//  if( 'wp-login.php' == $pagenow && $_GET['action']!="logout") {
+//   wp_redirect('/');
+//   exit();
+//  } 
 
+// }
 
+// function goto_login_page()
+// 	{
+// 	global $page_id;
+	
+// 	$login_page = home_url('/?page_id=' . $page_id . '/');
+// 	// $login_page = home_url('/');
+
+// 	$page = basename($_SERVER['REQUEST_URI']);
+// 		if ($page == "wp-login.php" && $_SERVER['REQUEST_METHOD'] == 'GET')
+// 		{
+// 			wp_redirect($login_page);
+// 			exit;
+// 		}
+// 		if ($page == "wp-admin" && $_SERVER['REQUEST_METHOD'] == 'GET')
+// 		{
+// 			wp_redirect($login_page);
+// 			exit;
+// 		}
+// 		if ($page == "wp-signup.php" && $_SERVER['REQUEST_METHOD'] == 'GET')
+// 		{
+// 			wp_redirect($login_page);
+// 			exit;
+// 		}
+// 		if ($page == "wp-admin/index.php" && $_SERVER['REQUEST_METHOD'] == 'GET')
+// 		{
+// 			wp_redirect("/wp-admin/index.php");
+// 			exit;
+// 		}
+// 	}
+
+// add_action('init', 'goto_login_page');
 
 
 

@@ -71,7 +71,7 @@ wp_footer();
 				=            THIS IS FOR DEBUGGING. PLZ DISABLE WHEN READY TO PUBLISH            =
 				===============================================================================-->
 				
-				<div style="color: white"><strong>Current template:</strong> <?php echo get_current_template( true ); ?></div>
+				<!-- <div style="color: white"><strong>Current template:</strong> <?php echo get_current_template( true ); ?></div> -->
 				
 				<!--====  End of THIS IS FOR DEBUGGING. PLZ DISABLE WHEN READY TO PUBLISH  ====-->
 				

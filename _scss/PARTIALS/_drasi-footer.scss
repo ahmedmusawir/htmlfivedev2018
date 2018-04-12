@@ -5,7 +5,6 @@
  */
 
 .footer-container {
-	// background-color: darken( $steel, 20% );
 	background: url("/wp-content/uploads/2017/10/sample-paralax-bg.jpg") no-repeat center center fixed;
 
 	  -webkit-background-size: cover;
@@ -15,11 +14,10 @@
 	  -o-background-size: cover;
 
 	  background-size: cover;	
-	// background: url('/wp-content/uploads/2017/06/heather-skulls.jpg') fixed;
-	// border: 1rem solid red;
 }
 #footer-main {
 	padding: 3rem 5rem;
+	// border: 1rem solid red;
 
 	@media (max-width: 450px) {
 		padding: 3rem 1.5rem;

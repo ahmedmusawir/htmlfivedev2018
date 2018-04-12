@@ -6359,7 +6359,7 @@ img {
     z-index: 0;
     padding: 0; }
   #drasi-home-video-block #drasi-home-video-text .content-left .text-only {
-    padding-top: 15rem; }
+    padding-top: 4rem; }
     @media (max-width: 991px) {
       #drasi-home-video-block #drasi-home-video-text .content-left .text-only {
         padding-top: 5rem; } }
@@ -7151,12 +7151,8 @@ img {
  * Contact  Page Styles
  *
  */
-#Title-Container {
-  background: url(/wp-content/uploads/2018/01/CONTACT-PG-BG.jpg) fixed; }
-
 #Contact-Main-Content {
-  background: url("/wp-content/uploads/2018/02/contact-pg-bg-1920-matrix-CLEAN.jpg") fixed;
-  background-size: cover; }
+  background: silver; }
   #Contact-Main-Content h2 {
     font-weight: 400; }
   @media (max-width: 400px) {
@@ -7205,6 +7201,19 @@ img {
       @media (min-width: 790px) and (max-width: 1000px) {
         #Contact-Main-Content .left-text-content .content-info p {
           font-size: 1.5rem; } }
+  #Contact-Main-Content .right-form-content #gform_wrapper_1 #field_1_1 input {
+    border: 1px solid #ef4409;
+    outline-color: #ef4409; }
+  #Contact-Main-Content .right-form-content #gform_wrapper_1 #field_1_2 {
+    padding-right: 0 !important; }
+    #Contact-Main-Content .right-form-content #gform_wrapper_1 #field_1_2 input {
+      border: 1px solid #ef4409;
+      outline-color: #ef4409; }
+  #Contact-Main-Content .right-form-content #gform_wrapper_1 #field_1_3 {
+    padding-right: 0 !important; }
+    #Contact-Main-Content .right-form-content #gform_wrapper_1 #field_1_3 textarea {
+      border: 1px solid #ef4409;
+      outline-color: #ef4409; }
   #Contact-Main-Content .right-form-content #gform_submit_button_1 {
     border: 1rem solid #434141;
     background-color: #434141;

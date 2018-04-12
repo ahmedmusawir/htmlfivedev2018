@@ -84,7 +84,7 @@
 
                 <button type="button" class="close pull-left" data-dismiss="modal" aria-label="Close" style="color: white;"><span aria-hidden="true">&times;</span></button>
 
-                <h4 class="modal-title text-center" id="myModalLabel" style="color: white;">www.cyberizegroup.com</h4>
+                <h4 class="modal-title text-center" id="myModalLabel" style="color: white;">www.htmlfivedev.com</h4>
 
             </div>
 
@@ -103,12 +103,22 @@
 
                     <article class="popup-text">
 
+                        <style type="text/css">
+                            #gform_submit_button_1 {
+                                width: 100%;
+                                background-color: orangered;
+                                border:  1px solid orangered;
+                            }
+                        </style>
+
                         <figure>
 
-                            <?php the_field( 'hero_modal_form_code' ); ?>
+                            <?php //the_field( 'hero_modal_form_code' ); ?>
                             
                             <!-- FOLLOWING IS FOR BLOG INDEX PAGE ACF -->
                             <?php //the_field('blog_page_optin_image_mailchimp_form_code', get_option('page_for_posts')); ?> 
+
+                            <?php echo do_shortcode( '[gravityform id="1" title="false" description="false"]' ); ?>
 
                         </figure>
 
