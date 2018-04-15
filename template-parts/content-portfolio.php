@@ -18,7 +18,8 @@
            
             <a class="article-image" href="#" data-featherlight="#portfolio-single-<?php echo the_ID(); ?>">
 
-                <?php the_post_thumbnail('medium', array('class' => 'img-responsive animated zoomIn')); ?>
+                <?php //the_post_thumbnail('medium', array('class' => 'img-responsive animated zoomIn')); ?>
+                <?php the_post_thumbnail('medium', array('class' => 'img-responsive')); ?>
 
             </a>
 
@@ -39,6 +40,7 @@
                         <article class="left-content">
 
                             <header id="header" class="animated zoomIn">
+                            <!-- <header id="header" class=""> -->
 
                                 <img class="img-responsive pull-right" src="/wp-content/uploads/2018/01/just-moose-head-100x80.png" alt="">
 

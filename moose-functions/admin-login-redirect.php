@@ -37,7 +37,8 @@ function goto_login_page()
 		}
 		if ($page == "wp-admin/index.php" && $_SERVER['REQUEST_METHOD'] == 'GET')
 		{
-			wp_redirect("/wp-admin/index.php");
+			wp_redirect($login_page);
+			// wp_redirect("/wp-admin/index.php");
 			exit;
 		}
 	}

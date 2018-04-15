@@ -109,6 +109,9 @@
                                 background-color: orangered;
                                 border:  1px solid orangered;
                             }
+                            #gform_wrapper_1 {
+                                color: gray;
+                            }
                         </style>
 
                         <figure>
